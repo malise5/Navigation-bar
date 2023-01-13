@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(105, 49, 68);
+  align-content: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+.logo-tag {
+  text-decoration: none;
+  font-size: 30px;
+  color: mediumslateblue;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+nav a {
+  text-decoration: none;
+  /* border-right: 1px solid grey; */
+  color: rgb(175, 134, 134);
+  padding: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+nav a:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  color: rgb(131, 197, 202);
+}
+nav a.active {
+  background-color: #2196f3;
+  border-radius: 10px;
+  color: white;
+}
+.search-container button {
+  float: right;
+  padding: 5px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+
+input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
